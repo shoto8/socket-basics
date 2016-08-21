@@ -11,5 +11,5 @@ io.on('connection', function ()  {
 });
 
 http.listen(PORT, function () {
-    console.log('Server started on:  ' + PORT);
+    console.log(`Server started on Port: ${PORT}`);
 });
